@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Counter</title>
+</head>
+<body>
+   
+   <h1>Countdown</h1>
+    <div class="myDate">
+        <p>Enter your date</p>
+        <input type="datetime-local" name="" id="date-1"/>
+    </div>
+
+    <div id="countdown" class="countdown">
+
+        <div class="time">
+            <h2 id="days">00</h2>
+            <small>Days</small>
+        </div>
+
+        <div class="time">
+            <h2 id="hours">00</h2>
+            <small>Hours</small>
+        </div>
+
+        <div class="time">
+            <h2 id="minutes">00</h2>
+            <small>Minutes</small>
+        </div>
+
+        <div class="time">
+            <h2 id="seconds">00</h2>
+            <small>Seconds</small>
+        </div>
+    </div>
+
+    <button id="button" class="button">Count it</button>
+
+    <script src="logic.js"></script>
+</body>
+</html>
